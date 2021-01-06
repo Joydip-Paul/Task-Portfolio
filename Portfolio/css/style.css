@@ -6,8 +6,10 @@
 body{
     font-family: 'Fira Sans', sans-serif;
 }
-section{
+.container{
     margin: 5% 8%;
+    /* width: 1140px;
+    margin: 0 auto; */
 }
 header{
     width: 100%;
@@ -77,4 +79,133 @@ header{
 }
 .Content-Two h2{
     font-size: 50px;
+}
+
+
+
+
+.project-area{
+    background-color: #cae4db;
+    float: left;
+    padding: 5% 0;
+}
+.project-area h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.single-item{
+    float: left;
+    width: 28%;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px #aaaaaa;
+}
+.single-item img{
+    width: 100%;
+}
+.project-content{
+   padding: 10px;
+}
+.project-content h2{
+    font-size: 20px;
+    color: #333333;
+}
+.project-content p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.client-area{
+  margin-top: 100%;
+  padding: 30% 0;
+}
+.client-area h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.single-item h2{
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 20px;
+}
+.single-item h4{
+    text-align: center;
+    font-weight: 600;
+}
+.single-item p{
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+.single-item button{
+    font-size: 12px;
+    padding: 10px 20px;
+    background-color: #5351D6;
+    color: white;
+    border: none;
+    margin-left: 35%;
+}
+
+
+
+.work{
+    height: 200px;
+    padding: 40px 0;
+}
+.work .img{
+    background-image: url('../img/banner.png');
+    width: 100%;
+    padding: 120px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+}
+
+.work-content1 {
+	float: left;
+}
+.work-content2{
+    float: right;
+}
+.work-content1 h2 {
+	margin-left: 240px;
+	font-size: 38px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.work-content2 button {
+	margin-right: 240px;
+	padding: 10px 20px;
+	border-radius: 5px;
+    color: #333;
+    background-color: #F66660;
+    border: none;
+    color: white;
+}
+
+
+.footer-content{
+    text-align: center;
+}
+.footer-content h4{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.footer-content a{
+    text-decoration: none;
+    font-size: 40px;
+}
+.icon{
+    text-align: center;
+}
+.icon img{
+    width: 40px;
+    padding: 10px;
 }
