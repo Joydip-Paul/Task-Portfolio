@@ -149,7 +149,7 @@ header{
 .single-item button{
     font-size: 12px;
     padding: 10px 20px;
-    background-color: #5351D6;
+    background-color: #F66660;
     color: white;
     border: none;
     margin-left: 35%;
@@ -196,6 +196,11 @@ header{
 }
 
 
+
+.footer{
+    background-color: #cae4db;
+    padding: 10px;
+}
 .footer-content{
     text-align: center;
 }
